@@ -8,6 +8,6 @@ __Automated detection of PWML through cranial ultrasound (cUS) imaging__ could a
 
 In this work, we propose a two-phase approach:
   1) Segmentation using a vision transformer to increase the detection rate of lesions.
-  2) Multi-view classification leveraging cross-attention to reduce false positives and enhance precision. We also investigate multiple postprocessing approaches to ensure prediction quality and compare our results with what is known in MRI.
+  2) __Multi-view classification leveraging cross-attention to reduce false positives and enhance precision with CACTUS__ model. We also investigate multiple postprocessing approaches to ensure prediction quality and compare our results with what is known in MRI.
 
 Our method demonstrates improved performance in PWML detection on cUS images, achieving recall and precision rates of 0.84 and 0.70, respectively, representing an increase of 2% and 10% over the best published cUS models. Moreover, by reducing the task to a slightly simpler problem (detection of MRI-visible PWML), the model achieves 0.82 recall and 0.89 precision, which is equivalent to the latest method in MRI.
